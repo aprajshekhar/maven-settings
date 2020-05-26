@@ -51,7 +51,7 @@
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
                 </repository>
-            <repositories>
+            </repositories>
         </profile>
     </profiles>
     <activeProfiles>
