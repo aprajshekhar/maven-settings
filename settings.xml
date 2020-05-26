@@ -1,0 +1,59 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>gss</id>
+
+            <repositories>
+                <!-- <repository>
+                    <id>maven2-central-repository</id>
+                    <name>Maven2 Central Repository</name>
+                    <url>http://central.maven.org/maven2/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                    </snapshots>
+                </repository> -->
+                    <repository>
+                        <id>maven2-sonatype-repository</id>
+                        <name>Maven2 sonatype Repository</name>
+                        <url>https://repo1.maven.org/maven2</url>
+                        <layout>default</layout>
+                        <releases>
+                            <enabled>true</enabled>
+                            <updatePolicy>daily</updatePolicy>
+                        </releases>
+                        <snapshots>
+                            <enabled>false</enabled>
+                            <updatePolicy>daily</updatePolicy>
+                        </snapshots>
+                    </repository>
+                  <!-- The repository for karf-configs -->
+                  <repository>
+                    <id>jitpack.io</id>
+                    <url>https://jitpack.io</url>
+                  </repository>
+                <repository>
+                    <id>jboss-public-repository-group</id>
+                    <name>JBoss Public Maven Repository Group</name>
+                    <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </snapshots>
+                </repository>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>gss</activeProfile>
+    </activeProfiles>
+</settings>
